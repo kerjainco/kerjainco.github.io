@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background: #101010;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    height: auto;
+    max-width: 250px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+}
+
+.profile-name:hover {
+    color: #f15a22;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.links:hover {
+    transition: 0.5s;
+    color: #fff;
+}
+
+.whats {
+    color: #1ebea5;
+    border: 5px solid #1ebea5;
+}
+
+.whats:hover {
+    background: #1ebea5;
+}
+
+.face {
+    color: #3b5998;
+    border: 5px solid #3b5998;
+}
+
+.face:hover {
+    background: #3b5998;
+}
+
+.spotify {
+    color: #81b71a;
+    border: 5px solid #81b71a;
+}
+
+.spotify:hover {
+    background: #81b71a;
+}
+
+.insta {
+    color: #f77737;
+    border: 5px solid #f77737;
+}
+
+.insta:hover {
+    background: #f77737;
+}
